@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CRUD Operations</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div id="container">
+      <h1>News Management System</h1>
+      <div id="input-container">
+        <input type="text" id="name-input" placeholder="Enter Type of News"><br>
+        <input type="text" id="name-input" placeholder="Enter Date"><br>
+        <input type="text" id="name-input" placeholder="Enter TV"><br>
+        <button id="add-btn">Add</button><br>
+      </div>
+      <p>All News</p>
+      <table>
+        <thead>
+          <tr>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Date</th>
+            <th>TV</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody id="table-body"></tbody>
+      </table>
+      <div id="update-container">
+        <input type="text" id="update-name-input">
+        <input type="text" id="update-email-input">
+        <button id="update-btn">Update</button>
+        <button id="cancel-btn">Cancel</button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
